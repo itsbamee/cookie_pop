@@ -39,6 +39,7 @@ aside {
   padding: 50px;
   background: linear-gradient(45deg, pink, lightcoral);
   margin: 100px;
+  display: none;
 }
 aside .con {
   min-height: 100px;
