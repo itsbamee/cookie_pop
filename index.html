@@ -11,8 +11,15 @@
 </head>
 
 <body>
+  <button>Open Pop</button>
   <script>
-    new MyPop({ wid: 500, bg: 'skyblue', enableCookie: true })
+    const instance = new MyPop()
+
+    const btn = document.querySelector('button');
+
+    btn.addEventListener('click', () => {
+      instance.createPop();
+    })
   </script>
 </body>
 
