@@ -47,7 +47,7 @@ class MyPop {
 		close.addEventListener('click', () => {
 			if (this.enableCookie) {
 				const ck = document.querySelector('aside #ck');
-				if (ck.checked) setCookie('today', 'done', this.lastTime);
+				if (ck.checked) this.setCookie('today', 'done', this.lastTime);
 			}
 			document.querySelector('aside').remove();
 		});
