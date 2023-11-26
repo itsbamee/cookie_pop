@@ -35,11 +35,11 @@ nav button {
 }
 
 aside {
-  width: 600px;
   padding: 50px;
-  background: linear-gradient(45deg, pink, lightcoral);
-  margin: 100px;
-  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 aside .con {
   min-height: 100px;
