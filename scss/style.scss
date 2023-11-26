@@ -1,0 +1,40 @@
+@import 'reset';
+
+nav {
+	margin: 100px;
+
+	button {
+		border: none;
+		background: gray;
+		padding: 15px 40px;
+		font: bold 1rem/1 'arial';
+		color: #fff;
+		cursor: pointer;
+	}
+}
+
+aside {
+	width: 600px;
+	padding: 50px;
+	background: linear-gradient(45deg, pink, lightcoral);
+	margin: 100px;
+
+	.con {
+		min-height: 100px;
+	}
+	.controls {
+		display: flex;
+		justify-content: space-between;
+
+		label {
+			font: 0.8rem/1 '맑은 고딕';
+			color: #fff;
+		}
+		button {
+			cursor: pointer;
+			border: none;
+			background: transparent;
+			color: #fff;
+		}
+	}
+}

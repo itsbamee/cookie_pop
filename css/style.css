@@ -1,0 +1,61 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+nav {
+  margin: 100px;
+}
+nav button {
+  border: none;
+  background: gray;
+  padding: 15px 40px;
+  font: bold 1rem/1 "arial";
+  color: #fff;
+  cursor: pointer;
+}
+
+aside {
+  width: 600px;
+  padding: 50px;
+  background: linear-gradient(45deg, pink, lightcoral);
+  margin: 100px;
+}
+aside .con {
+  min-height: 100px;
+}
+aside .controls {
+  display: flex;
+  justify-content: space-between;
+}
+aside .controls label {
+  font: 0.8rem/1 "맑은 고딕";
+  color: #fff;
+}
+aside .controls button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
